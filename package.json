@@ -1,0 +1,32 @@
+{
+  "name": "apocrat-static",
+  "version": "1.0.0",
+  "description": "Static Website, designed by Laura in Nov 2020",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "postcss src/css/main.css -o dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpuehringer/apocrat-static.git"
+  },
+  "keywords": [
+    "apocrat",
+    "static",
+    "apocrat"
+  ],
+  "author": "Daniel Puehringer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpuehringer/apocrat-static/issues"
+  },
+  "homepage": "https://github.com/danielpuehringer/apocrat-static#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
