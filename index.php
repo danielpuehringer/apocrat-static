@@ -28,17 +28,25 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="/dist/css/main.css">
-    <link rel="stylesheet" href="">
 
 </head>
 
 <body>
 
-    <div class="container">
-        <h1 class="text-center md:text-left text-red-500">Hello World</h1>
-    </div>
+    <div class="hero--fullpage">
+        <div class="navbar">
 
-<script src=""></script>
+        </div>
+        <div class="hero--fullpage__content">
+            <h1>Schützen, was wichtig ist</h1>
+            <p>
+                Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.
+                Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+            </p>
+            <div><span>Launch: Ende 2021</span></div>
+            <a class="btn button-primary" href="">
+        </a>
+    </div>
 
 </body>
 
