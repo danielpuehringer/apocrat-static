@@ -1,15 +1,10 @@
 module.exports = {
-    future: {
-        purgeLayersByDefault: true,
-    },
-    purge: {
-        enabled: true,
-        content: [
-            './**/*.html',
-            './**/*.php',
-            './**/*.inc',
-        ],
-    },
+    purge: [
+        './**/*.html',
+        './**/*.php',
+        './**/*.inc',
+    ],
+    darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},
         colors: {
@@ -34,5 +29,5 @@ module.exports = {
 
     },
     variants: {},
-    plugins: []
+    plugins: [],
 }

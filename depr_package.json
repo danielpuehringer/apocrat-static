@@ -4,28 +4,29 @@
   "description": "Static Website, designed by Laura in Nov 2020",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo(\"test\")",
-    "fast": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css",
-    "fastl": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/css/main.css -o ./dist/css/main.css",
-    "different": "postcss src/css/main.css -o dist/css/main.css"
+    "build": "postcss src/css/main.css -o dist/css/main.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danielpuehringer/apocrat-static.git"
   },
-  "author": "",
+  "keywords": [
+    "apocrat",
+    "static",
+    "apocrat"
+  ],
+  "author": "Daniel Puehringer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/danielpuehringer/apocrat-static/issues"
   },
   "homepage": "https://github.com/danielpuehringer/apocrat-static#readme",
   "dependencies": {
-    "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.10",
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2",
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
-    "webpack": "^5.9.0",
-    "webpack-cli": "^4.2.0"
+    "cssnano": "^4.1.10"
   }
 }

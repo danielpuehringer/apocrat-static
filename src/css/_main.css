@@ -1,0 +1,92 @@
+:root {
+    --light-blue: #0099CC;
+    --blue: #005E7D;
+    --dark-blue: #003B4D;
+    --yellow: #F7B633;
+}
+
+* {
+    font-family: "Open Sans";
+}
+
+
+
+.container {
+    @apply mx-auto;
+}
+
+.content-block {
+    @apply mt-16;
+}
+
+.hero--fullpage {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero--fullpage__content {
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    color: #ffffff;
+
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    @apply px-4 py-2 font-bold;
+}
+
+.btn-primary {
+    @apply border-2 rounded;
+    background-color: var(--dark-blue);
+    border-color: var(--yellow);
+}
+
+h1, .h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+h2, .h2 {
+    font-size: calc(30rem /16);
+    letter-spacing: 1px;
+    @apply mb-6 text-blue font-bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__link {
+    margin: 0 8px;
+    color: red;
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-underline::after {
+    width: 200px;
+    height: 5px;
+    content: "";
+    display: block;
+    background-color: var(--yellow);
+    margin-top: 8px;
+}
+
+.text-underline--center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
