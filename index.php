@@ -33,16 +33,16 @@
 
 <body>
 
-    <div class="hero--fullpage" style="background: url('https://picsum.photos/1920/1080');">
+    <div class="hero--fullpage px-2 md:px-0" style="background: url('https://picsum.photos/1920/1080');">
         <div class="container navbar">
-            <img class="navbar__logo" src="https://picsum.photos/300/45"/>
-            <div class="navbar__list-items">
+            <img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/>
+            <!--<div class="navbar__list-items">
                 <a class="navbar__link" href="/">Für Privatpersonen</a>
                 <a class="navbar__link" href="/">Für Unternehmen</a>
                 <a class="navbar__link" href="/">Über uns</a>
                 <a class="navbar__link" href="/">Kontakt</a>
                 <a class="navbar__link" href="/">EN</a>
-            </div>
+            </div>-->
         </div>
         <div class="hero--fullpage__content mx-auto">
             <h1>Schützen, was wichtig ist</h1>
@@ -51,7 +51,7 @@
                 Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
             </div>
             <div class="font-bold mb-4">Launch: Ende 2021</div>
-            <button class="btn btn-primary border-2 mx-auto" href="/">Mehr erfahren</button>
+            <button class="btn btn-primary border-2 mx-auto mt-6" href="/">Mehr erfahren</button>
         </div>
     </div>
     <div class="content-block">
@@ -63,24 +63,24 @@
                 Dritte weitergegeben werden. Dadurch schützt Apocrat vor Datendiebstahl, dem Eindringen in die Privatsphäre der NutzerInnen und gibt die
                 Höheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu den einzelnen Menschen.
             </p>
-            <div class="flex">
-                <div class="w-full md:w-1/3">
+            <div class="flex flex-col md:flex-row">
+                <div class="w-full md:w-1/3 mt-6 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">270.000</div>
-                    <div class="md:w-56 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
+                    <div class="w-56 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
-                <div class="w-full md:w-1/3">
+                <div class="w-full md:w-1/3 mt-6 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">+800.000</div>
-                    <div class="md:w-56 mx-auto">Haushalte in Österreich und Deutschland nutzen vernetzte Geräte</div>
+                    <div class="w-56 mx-auto">Haushalte in Österreich und Deutschland nutzen vernetzte Geräte</div>
                 </div>
-                <div class="w-full md:w-1/3">
+                <div class="w-full md:w-1/3 mt-6 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">&gt;90%</div>
-                    <div class="md:w-56 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
+                    <div class="w-56 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
                 </div>
             </div>
         </div>
     </div>
     <div class="content-block bg-grey-400">
-        <div class="container flex">
+        <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/3">
                 <p>test</p>
             </div>
@@ -102,6 +102,17 @@
             </div>
         </div>
     </div>
+
+<footer>
+    <div>Todo</div>
+    <ul>
+        <li>/</li>
+        <li>/teamS</li>
+        <li>/datenschutz</li>
+        <li>/impressum</li>
+        <li>keynote am 10.12, deadline ca. 8.12.</li>
+    </ul>
+</footer>
 
 </body>
 
