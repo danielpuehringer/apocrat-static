@@ -1,9 +1,12 @@
 module.exports = {
-    purge: [
-        './**/*.html',
-        './**/*.php',
-        './**/*.inc',
-    ],
+    purge: {
+        enabled: true,
+        content: [
+            './**/*.html',
+            './**/*.php',
+            './**/*.inc',
+        ],
+    },
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},

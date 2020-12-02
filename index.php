@@ -33,25 +33,27 @@
 
 <body>
 
-    <div class="hero--fullpage px-2 md:px-0" style="background: url('https://picsum.photos/1920/1080');">
-        <div class="container navbar">
+    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/stephan-bechert-yFV39g6AZ5o-unsplash_processed.jpg');">
+        <div class="container navbar pt-6 px-6">
             <img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/>
-            <!--<div class="navbar__list-items">
-                <a class="navbar__link" href="/">Für Privatpersonen</a>
-                <a class="navbar__link" href="/">Für Unternehmen</a>
+            <div class="navbar__list-items">
+                <a class="text-white font-bold mx-4" href="/">Über uns</a>
+                <!--<a class="navbar__link" href="/">Für Unternehmen</a>
                 <a class="navbar__link" href="/">Über uns</a>
                 <a class="navbar__link" href="/">Kontakt</a>
-                <a class="navbar__link" href="/">EN</a>
-            </div>-->
+                <a class="navbar__link" href="/">EN</a>-->
+            </div>
         </div>
         <div class="hero--fullpage__content mx-auto">
-            <h1>Schützen, was wichtig ist</h1>
-            <div class="mb-5">
-                Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
-                Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+            <div class="container">
+                <h1 class="mb-6">Schützen, was wichtig ist</h1>
+                <div class="mb-4">
+                    Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                    Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+                </div>
+                <div class="font-bold mb-4">Launch: Ende 2021</div>
+                <button class="btn btn-primary border-2 mx-auto mt-6" href="/">Mehr erfahren</button>
             </div>
-            <div class="font-bold mb-4">Launch: Ende 2021</div>
-            <button class="btn btn-primary border-2 mx-auto mt-6" href="/">Mehr erfahren</button>
         </div>
     </div>
     <div class="content-block">
@@ -65,27 +67,27 @@
             </p>
             <div class="flex flex-col md:flex-row">
                 <div class="w-full md:w-1/3 mt-6 md:mt-0">
-                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">270.000</div>
+                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">270.000</div>
                     <div class="w-56 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-6 md:mt-0">
-                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">+800.000</div>
+                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+800.000</div>
                     <div class="w-56 mx-auto">Haushalte in Österreich und Deutschland nutzen vernetzte Geräte</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-6 md:mt-0">
-                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-4">&gt;90%</div>
+                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;90%</div>
                     <div class="w-56 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="content-block bg-grey-400">
+    <div class="content-block bg-gray-400 py-8">
         <div class="container flex flex-col md:flex-row">
-            <div class="w-full md:w-1/3">
-                <p>test</p>
+            <div class="w-full md:w-1/3 md:mr-8">
+                <img src="img/Bilder_Webseite/processed/PN878U1_processed.jpg" alt="" />
             </div>
             <div class="w-full md:w-2/3">
-                <h2 class="text-underline">Intelligente Firewall für<br/> dein Heimnetzwerk</h2>
+                <h2 class="text-underline mt-4 md:mt-0">Intelligente Firewall für<br/> dein Heimnetzwerk</h2>
                 <p>
                     Vernetzte Geräte, die mehr Komfort und Sicherheit in das eigene Heim bringen sind längst zur Selbstverständlichkeit geworden.
                     Allerdings sind gerade diese Geräte Gefahren wie Hackern of schutzlos ausgeliefert.
@@ -103,6 +105,34 @@
         </div>
     </div>
 
+    <div class="content-block bg-blue-300 text-white py-8">
+        <div class="container">
+            <h2 class="text-underline text-underline--center text-center text-white">So funktioniert´s</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
+                    <img class="mx-auto mb-4" width="80px" src="./icon/usb-cable.png" />
+                    <span class="font-bold">Anstecken</span>
+                    <p>Apocrat Box mit Router per Kabel verbinden & einschalten</p>
+                </div>
+                <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
+                    <img class="mx-auto mb-4" width="80px" src="./icon/wifi.png" />
+                    <span class="font-bold">Scannen</span>
+                    <p>Apocrat erkennt die vernetzen Geräte im Heimnetzwerk und erstellt Regeln</p>
+                </div>
+                <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
+                    <img class="mx-auto mb-4" width="80px" src="./icon/shield.png" />
+                    <span class="font-bold">Scannen</span>
+                    <p>Apocrat erkennt Anomalien und unterbindet unerlaubten Zugriff & Datennutzung</p>
+                </div>
+                <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
+                    <img class="mx-auto mb-4" width="80px" src="./icon/euro.png" />
+                    <span class="font-bold text-yellow">Vergütung</span>
+                    <p class="text-yellow">Wertschätzung für freiwillig zur Verfügung gestellte Daten in Form von Vergütungen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <footer>
     <div>Todo</div>
     <ul>
@@ -112,6 +142,9 @@
         <li>/impressum</li>
         <li>keynote am 10.12, deadline ca. 8.12.</li>
     </ul>
+    <img src="img/Bilder_Webseite/processed/Gruppe-29_processed.jpg">
+    <img src="img/Bilder_Webseite/processed/Gruppe-30_processed.jpg">
+    <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg">
 </footer>
 
 </body>
