@@ -133,6 +133,51 @@
         </div>
     </div>
 
+    <div class="content-block container">
+        <h2 class="text-underline text-underline--center text-center">Hoheit über deine Daten</h2>
+        <p class="text-center">
+            Anders als diverse Hersteller von smarten Geräten verwendet Apocrat nur Daten, die für die Funktionsweise benötigt werden.
+            <span class="font-bold">Apocrat funktioniert also ohne Einschränkungen ohne das Teilen von Metriken (Nutzerstatistiken)!</span>
+            Solltest du dich aber dazu entschließen, diese Daten mit und zu teilen, dann erhältst du dafür eine Vergütung. Du kannst selber darüber entscheiden, welche Daten du Apocrat zur Verfügung stellst und welche Art der Vergütung du dafür beziehen möchtest.
+        </p>
+        <div class="flex flex-col md:flex-row">
+            <div class="w-full md:w-1/2 mt-12">
+                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="" />
+            </div>
+            <div class="w-full md:w-1/2 mt-12">
+                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="content-block bg-gray-400 py-8">
+        <div class="container flex flex-col md:flex-row">
+            <div class="w-full md:w-1/3 md:mr-8">
+                <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg" alt="" />
+            </div>
+            <div class="w-full md:w-2/3">
+                <h2 class="text-underline mt-4 md:mt-0">Dein Nutzen: Komfort bei höchster Sicherheit & Datenschutz</h2>
+                <p>
+                    Du hast Angst um deine Daten und möchtest deine Geräte einem Hacker nicht schutzlos auszuliefern? Verzichte nicht auf den Nutzen deiner vernetzten Geräte.
+                    Verwende Apocrat! Wir sorgen dafür, dass du dich nicht mehr Sorgen musst.
+                </p>
+                <p class="font-bold">
+                    Apocrat hilft dir dabei diese Lücke zu schließen und sorgt dafür, dass auch die Geräte, die dir Sicherheit bieten sollen, zukünftig sicher sind.
+                </p>
+                <ul>
+                    <li>Statistiken über die Sicherheit von vernetzten Geräten</li>
+                    <li>Hoheit über die eigenen Daten</li>
+                    <li>Schutz vor Viren und Malware</li>
+                    <li>Privatsphäre im eigenen Haushalt</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-block container">
+        <h2 class="text-underline text-underline--center text-center">Mit freundlicher Unterstützung von</h2>
+    </div>
+
 <footer>
     <div>Todo</div>
     <ul>
