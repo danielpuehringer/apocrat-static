@@ -8,7 +8,7 @@
     "fast": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css",
     "build": "NODE_ENV=production npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css",
     "different": "postcss src/css/main.css -o dist/css/main.css",
-    "slow": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css"
+    "usethis": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css"
   },
   "repository": {
     "type": "git",

@@ -13,7 +13,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apocrat Neu</title>
+    <title>Apocrat</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,9 +35,9 @@
 
     <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/stephan-bechert-yFV39g6AZ5o-unsplash_processed.jpg');">
         <div class="container navbar pt-6 px-6">
-            <img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/>
+            <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
             <div class="navbar__list-items">
-                <a class="text-white font-bold mx-4" href="/">Über uns</a>
+                <a class="text-white font-bold mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
                 <!--<a class="navbar__link" href="/">Für Unternehmen</a>
                 <a class="navbar__link" href="/">Über uns</a>
                 <a class="navbar__link" href="/">Kontakt</a>
@@ -52,13 +52,13 @@
                     Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
                 </div>
                 <div class="font-bold mb-4">Launch: Ende 2021</div>
-                <button class="btn btn-primary border-2 mx-auto mt-6" href="/">Mehr erfahren</button>
+                <a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>
             </div>
         </div>
     </div>
     <div class="content-block">
         <div class="container text-center text-gray-900">
-            <h2 class="text-underline text-underline--center">Schutz für deine IoT-Geräte</h2>
+            <h2 class="text-underline text-underline--center" id="bookmark">Schutz für deine IoT-Geräte</h2>
             <p class="mb-6">
                 Apocrat ist eine AI-basierte Plug-and-Play-"Firewall", die vernetzte Geräte (IoT-Geräte/ Internet of Things Geräte) einerseits davor schützt, von
                 außen übernommen zu werden (z.B. durch Hacker) und andererseits davor bewahrt, dass Nutzerdaten ohne die explizite Zustimmung der User an
@@ -66,22 +66,22 @@
                 Höheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu den einzelnen Menschen.
             </p>
             <div class="flex flex-col md:flex-row">
-                <div class="w-full md:w-1/3 mt-6 md:mt-0">
+                <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">270.000</div>
                     <div class="w-56 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
-                <div class="w-full md:w-1/3 mt-6 md:mt-0">
+                <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+800.000</div>
                     <div class="w-56 mx-auto">Haushalte in Österreich und Deutschland nutzen vernetzte Geräte</div>
                 </div>
-                <div class="w-full md:w-1/3 mt-6 md:mt-0">
+                <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;90%</div>
                     <div class="w-56 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="content-block bg-gray-400 py-8">
+    <div class="content-block bg-gray-100 py-8">
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/3 md:mr-8">
                 <img src="img/Bilder_Webseite/processed/PN878U1_processed.jpg" alt="" />
@@ -121,14 +121,14 @@
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/shield.png" />
-                    <span class="font-bold">Scannen</span>
+                    <span class="font-bold">Schützen</span>
                     <p>Apocrat erkennt Anomalien und unterbindet unerlaubten Zugriff & Datennutzung</p>
                 </div>
-                <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
+                <!--<div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/euro.png" />
                     <span class="font-bold text-yellow">Vergütung</span>
                     <p class="text-yellow">Wertschätzung für freiwillig zur Verfügung gestellte Daten in Form von Vergütungen</p>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -142,20 +142,20 @@
         </p>
         <div class="flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 mt-12">
-                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="" />
+                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="Ohne Apocrat" />
             </div>
             <div class="w-full md:w-1/2 mt-12">
-                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="" />
+                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-30_processed.jpg" alt="Mit Apocrat" />
             </div>
         </div>
     </div>
 
-    <div class="content-block bg-gray-400 py-8">
+    <div class="content-block bg-gray-100 py-8">
         <div class="container flex flex-col md:flex-row">
-            <div class="w-full md:w-1/3 md:mr-8">
-                <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg" alt="" />
+            <div class="w-full md:w-1/2 md:mr-8">
+                <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg" alt="Women in bed using smartphone" />
             </div>
-            <div class="w-full md:w-2/3">
+            <div class="w-full md:w-1/2">
                 <h2 class="text-underline mt-4 md:mt-0">Dein Nutzen: Komfort bei höchster Sicherheit & Datenschutz</h2>
                 <p>
                     Du hast Angst um deine Daten und möchtest deine Geräte einem Hacker nicht schutzlos auszuliefern? Verzichte nicht auf den Nutzen deiner vernetzten Geräte.
@@ -176,21 +176,13 @@
 
     <div class="content-block container">
         <h2 class="text-underline text-underline--center text-center">Mit freundlicher Unterstützung von</h2>
+        <div class="my-8">
+            <img src="img/Bilder_Webseite/Logos/CPI_Leiste_RGB_L.jpg" alt="CPI" />
+            <img class="mx-auto mt-4" width="360px" src="img/Bilder_Webseite/Logos/logo-accent.png" alt="Accent Logo" />
+        </div>
     </div>
 
-<footer>
-    <div>Todo</div>
-    <ul>
-        <li>/</li>
-        <li>/teamS</li>
-        <li>/datenschutz</li>
-        <li>/impressum</li>
-        <li>keynote am 10.12, deadline ca. 8.12.</li>
-    </ul>
-    <img src="img/Bilder_Webseite/processed/Gruppe-29_processed.jpg">
-    <img src="img/Bilder_Webseite/processed/Gruppe-30_processed.jpg">
-    <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg">
-</footer>
+<?php include 'includes/footer.inc'; ?>
 
 </body>
 
