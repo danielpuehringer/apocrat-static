@@ -22,18 +22,23 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    <meta name="theme-color" content="#fafafa">
+    <!--<link rel="manifest" href="site.webmanifest">-->
+    <link rel="apple-touch-icon" href="favicon-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <meta name="theme-color" content="#003B4D">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="/dist/css/main.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+    <link rel="stylesheet" href="/dist/css/main.css?v2">
+    <link href="https://www.apocrat.at" rel="canonical">
+
+    <meta name="description" content="Apocrat - intelligenter Schutz für Ihre Daten und Privatsphäre">
 </head>
 
 <body>
 
-    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/stephan-bechert-yFV39g6AZ5o-unsplash_processed.jpg');">
+    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
         <div class="container navbar pt-6 px-6">
             <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
             <div class="navbar__list-items">
@@ -47,12 +52,12 @@
         <div class="hero--fullpage__content mx-auto">
             <div class="container">
                 <h1 class="mb-6">Schützen, was wichtig ist</h1>
-                <div class="mb-4">
+                <div class="mb-4 text-xl">
                     Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
                     Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
                 </div>
-                <div class="font-bold mb-4">Launch: Ende 2021</div>
-                <a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>
+                <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
             </div>
         </div>
     </div>
@@ -63,20 +68,20 @@
                 Apocrat ist eine AI-basierte Plug-and-Play-"Firewall", die vernetzte Geräte (IoT-Geräte/ Internet of Things Geräte) einerseits davor schützt, von
                 außen übernommen zu werden (z.B. durch Hacker) und andererseits davor bewahrt, dass Nutzerdaten ohne die explizite Zustimmung der User an
                 Dritte weitergegeben werden. Dadurch schützt Apocrat vor Datendiebstahl, dem Eindringen in die Privatsphäre der NutzerInnen und gibt die
-                Höheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu den einzelnen Menschen.
+                Hoheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu den einzelnen Menschen.
             </p>
             <div class="flex flex-col md:flex-row">
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">270.000</div>
-                    <div class="w-56 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
+                    <div class="w-64 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+800.000</div>
-                    <div class="w-56 mx-auto">Haushalte in Österreich und Deutschland nutzen vernetzte Geräte</div>
+                    <div class="w-64 mx-auto">Haushalte in Österreich nutzen vernetzte Geräte</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;90%</div>
-                    <div class="w-56 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
+                    <div class="w-64 mx-auto">der vernetzten Geräte kommunizieren unverschlüsselt</div>
                 </div>
             </div>
         </div>
@@ -84,18 +89,17 @@
     <div class="content-block bg-gray-100 py-8">
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/3 md:mr-8">
-                <img src="img/Bilder_Webseite/processed/PN878U1_processed.jpg" alt="" />
+                <img loading="lazy" src="img/Bilder_Webseite/processed/PN878U1_processed.jpg" alt="" />
             </div>
             <div class="w-full md:w-2/3">
-                <h2 class="text-underline mt-4 md:mt-0">Intelligente Firewall für<br/> dein Heimnetzwerk</h2>
-                <p>
-                    Vernetzte Geräte, die mehr Komfort und Sicherheit in das eigene Heim bringen sind längst zur Selbstverständlichkeit geworden.
-                    Allerdings sind gerade diese Geräte Gefahren wie Hackern of schutzlos ausgeliefert.
+                <h2 class="text-underline mt-4 md:mt-0 md:max-w-xs">Intelligente Firewall für dein Heimnetzwerk</h2>
+                <p class="mb-6">
+                    Vernetzte Geräte, die mehr Komfort bringen, sind längst zur Selbstverständlichkeit geworden. Allerdings besitzen gerade diese Geräte oft grobe Sicherheitslücken.
                 </p>
-                <p class="font-bold">
-                    Apocrat hilft dir dabei diese Lücke zu schließen und sorgt dafür, dass auch die Geräte, die dir Sicherheit bieten sollen, zukünftig sicher sind.
+                <p class="font-bold mb-6">
+                    Apocrat schützt deine Geräte und ermöglicht dir Komfort ohne Abstriche.
                 </p>
-                <ul>
+                <ul class="list-disc pl-4">
                     <li>Geräte-Erkennung - erkennt Deine Geräte automatisch</li>
                     <li>Anomalie-Erkennung - unerwünschtes Verhalten wird erkannt und blockiert</li>
                     <li>Datenschutz - sorgt dafür, dass Deine privaten Daten auch privat bleiben</li>
@@ -105,24 +109,24 @@
         </div>
     </div>
 
-    <div class="content-block bg-blue-300 text-white py-8">
+    <div class="content-block bg-blue-300 text-white py-8" style="margin-top: 0;">
         <div class="container">
             <h2 class="text-underline text-underline--center text-center text-white">So funktioniert´s</h2>
             <div class="flex flex-col md:flex-row">
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/usb-cable.png" />
                     <span class="font-bold">Anstecken</span>
-                    <p>Apocrat Box mit Router per Kabel verbinden & einschalten</p>
+                    <p>Apocrat Box per Kabel mit dem Router verbinden & einschalten</p>
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/wifi.png" />
                     <span class="font-bold">Scannen</span>
-                    <p>Apocrat erkennt die vernetzen Geräte im Heimnetzwerk und erstellt Regeln</p>
+                    <p>Apocrat erkennt die vernetzen Geräte im Heimnetzwerk und ihr normales Verhalten</p>
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/shield.png" />
                     <span class="font-bold">Schützen</span>
-                    <p>Apocrat erkennt Anomalien und unterbindet unerlaubten Zugriff & Datennutzung</p>
+                    <p>Apocrat unterbindet unerlaubten Zugriff & stellt Datenschutz sicher</p>
                 </div>
                 <!--<div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/euro.png" />
@@ -136,16 +140,18 @@
     <div class="content-block container">
         <h2 class="text-underline text-underline--center text-center">Hoheit über deine Daten</h2>
         <p class="text-center">
-            Anders als diverse Hersteller von smarten Geräten verwendet Apocrat nur Daten, die für die Funktionsweise benötigt werden.
-            <span class="font-bold">Apocrat funktioniert also ohne Einschränkungen ohne das Teilen von Metriken (Nutzerstatistiken)!</span>
-            Solltest du dich aber dazu entschließen, diese Daten mit und zu teilen, dann erhältst du dafür eine Vergütung. Du kannst selber darüber entscheiden, welche Daten du Apocrat zur Verfügung stellst und welche Art der Vergütung du dafür beziehen möchtest.
+            Apocrat schützt dich und dein zu Hause vor Datendiebstahl. Dabei werden nur Daten verwendet, die für die Funktionsweise benötigt werden.
+            Apocrat funktioniert also uneingeschränkt ohne das Teilen von Metriken (Nutzerstatistiken).
+        </p>
+        <p class="mt-4 text-center">
+            Zusammengefasst heißt das...
         </p>
         <div class="flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 mt-12">
-                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="Ohne Apocrat" />
+                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="Ohne Apocrat" />
             </div>
             <div class="w-full md:w-1/2 mt-12">
-                <img class="" src="./img/Bilder_Webseite/processed/Gruppe-30_processed.jpg" alt="Mit Apocrat" />
+                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-30_processed.png" alt="Mit Apocrat" />
             </div>
         </div>
     </div>
@@ -153,18 +159,18 @@
     <div class="content-block bg-gray-100 py-8">
         <div class="container flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 md:mr-8">
-                <img src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg" alt="Women in bed using smartphone" />
+                <img loading="lazy" src="img/Bilder_Webseite/processed/woman-using-smartphone-in-bed-3060643_processed.jpg" alt="Women in bed using smartphone" />
             </div>
             <div class="w-full md:w-1/2">
                 <h2 class="text-underline mt-4 md:mt-0">Dein Nutzen: Komfort bei höchster Sicherheit & Datenschutz</h2>
                 <p>
-                    Du hast Angst um deine Daten und möchtest deine Geräte einem Hacker nicht schutzlos auszuliefern? Verzichte nicht auf den Nutzen deiner vernetzten Geräte.
-                    Verwende Apocrat! Wir sorgen dafür, dass du dich nicht mehr Sorgen musst.
+                    Du hast Angst um deine Daten und möchtest deine Geräte einem Hacker nicht schutzlos ausliefern? Verzichte nicht auf den Nutzen deiner vernetzten Geräte.
+
                 </p>
-                <p class="font-bold">
-                    Apocrat hilft dir dabei diese Lücke zu schließen und sorgt dafür, dass auch die Geräte, die dir Sicherheit bieten sollen, zukünftig sicher sind.
+                <p class="mt-4">
+                    <strong>Wir sorgen dafür, dass du dich nicht mehr Sorgen musst.</strong>
                 </p>
-                <ul>
+                <ul class="mt-4 list-disc pl-4">
                     <li>Statistiken über die Sicherheit von vernetzten Geräten</li>
                     <li>Hoheit über die eigenen Daten</li>
                     <li>Schutz vor Viren und Malware</li>
@@ -174,11 +180,10 @@
         </div>
     </div>
 
-    <div class="content-block container">
+    <div class="my-8 container">
         <h2 class="text-underline text-underline--center text-center">Mit freundlicher Unterstützung von</h2>
         <div class="my-8">
-            <img src="img/Bilder_Webseite/Logos/CPI_Leiste_RGB_L.jpg" alt="CPI" />
-            <img class="mx-auto mt-4" width="360px" src="img/Bilder_Webseite/Logos/logo-accent.png" alt="Accent Logo" />
+            <img loading="lazy" src="img/Bilder_Webseite/processed/Gruppe23.png" alt="CPI, EFRE, Niederösterreich & Accent Logo" />
         </div>
     </div>
 

@@ -10,7 +10,17 @@
 @tailwind utilities;
 
 * {
-    font-family: "Open Sans";
+    font-family: "OpenSans";
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src:  url(../../fonts/OpenSans-Regular.ttf) format('ttf');
 }
 
 body {
@@ -31,8 +41,8 @@ body {
 
 .hero--fullpage {
     height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
     position: relative;
 }
 
@@ -43,9 +53,15 @@ body {
     color: #ffffff;
 
     position: absolute;
-    bottom: 25%;
+    bottom: 15%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media(min-width: 768px) {
+    .hero--fullpage__content {
+        bottom: 25%;
+    }
 }
 
 .hero {
