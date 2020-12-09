@@ -152,3 +152,18 @@ h2, .h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.square {
+    width: 115px;
+    height: 115px;
+    background-color: #F7B633;
+    position: relative;
+}
+
+.square__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @apply mx-auto;
+}
