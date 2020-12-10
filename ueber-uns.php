@@ -92,7 +92,7 @@
 
 
 
-            <div class="w-full md:w-1/2 mx-auto px-4">
+            <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0">
                 <div class="w-full" style="height: 422px; background-image: url('img/Bilder_Webseite/processed/Praesi_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover"></div>
                 <h2 class="text-underline mt-8">Alles hat einen Anfang</h2>
                 <p class="mt-4">
