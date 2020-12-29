@@ -6,6 +6,9 @@
                 <li>
                     <a class="text-white font-bold mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
                 </li>
+                <!--<li>
+                    <a class="text-white font-bold mx-4 hover:underline hover:text-grey-500" href="/privatpersonen">Für Privatpersonen</a>
+                </li>-->
             </ul>
         </div>
     </div>
