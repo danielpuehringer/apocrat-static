@@ -199,3 +199,22 @@ h4, .h4 {
     align-items: center;
     @apply bg-blue-300;
 }
+
+.circle__sibling {
+    border-bottom: 1px solid;
+    width: calc(100% - 32px);
+    transform: translate(32px, 16px);
+    @apply border-blue-300;
+}
+
+.slider {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+}
+.slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+}

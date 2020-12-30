@@ -663,6 +663,14 @@ video {
   margin-right: auto;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -744,9 +752,18 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
 .pl-4 {
@@ -1131,6 +1148,27 @@ h4, .h4 {
   background-color: rgba(0, 153, 204, var(--tw-bg-opacity));
 }
 
+.circle__sibling {
+  border-bottom: 1px solid;
+  width: calc(100% - 32px);
+  transform: translate(32px, 16px);
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 153, 204, var(--tw-border-opacity));
+}
+
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
 @media (min-width: 640px) {
 }
 
@@ -1146,6 +1184,14 @@ h4, .h4 {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:mr-8 {
