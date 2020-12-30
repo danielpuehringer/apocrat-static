@@ -707,6 +707,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .overflow-auto {
   overflow: auto;
 }

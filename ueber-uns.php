@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="text-yellow font-bold mt-4 mb-8">
-                    Restore & secure Privacy
+                    Power to the People
                 </div>
             </div>
             <div class="w-full md:w-1/3 md:px-2 mt-8 md:mt-0 text-center">
@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="text-yellow font-bold mt-4 mb-8">
-                    Power to the People
+                    Restore & secure Privacy
                 </div>
             </div>
             <div class="w-full md:w-1/3 md:px-2 mt-8 md:mt-0 text-center">
