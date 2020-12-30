@@ -816,6 +816,11 @@ video {
   color: rgba(0, 59, 77, var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(158, 158, 158, var(--tw-text-opacity));
+}
+
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgba(33, 33, 33, var(--tw-text-opacity));
@@ -1112,6 +1117,18 @@ h4, .h4 {
   transform: translate(-50%, -50%);
   margin-left: auto;
   margin-right: auto;
+}
+
+.circle__wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 153, 204, var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {

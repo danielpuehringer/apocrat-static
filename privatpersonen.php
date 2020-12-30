@@ -139,8 +139,30 @@
     </div>
 </div>
 
+<div class="container content-block">
+    <h3 class="text-underline text-underline--center text-center max-w-lg mx-auto">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h3>
+</div>
 
-<?php include 'includes/footer.inc'; ?>
+<div class="content-block bg-blue-300 text-white py-8" style="margin-top: 0;">
+    <div class="container">
+        <h2 class="text-underline text-underline--center text-center text-white">In wenigen Schritten zu Privacy & Datenschutz</h2>
+    </div>
+</div>
+
+<div class="content-block container py-8">
+    <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-25">
+            <div class="text-blue font-bold text-lg">Plug & Play Prinzip</div>
+            <small class="text-gray-500">Aufsetzen des Geräte</small>
+            <div class="circle__wrapper">
+                <span class="font-bold text-white">01</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <?php include 'includes/footer.inc'; ?>
 
 
 </body>
