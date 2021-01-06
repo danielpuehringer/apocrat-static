@@ -216,15 +216,14 @@
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
-            <div class="text-blue font-bold text-lg">Daten teilen & Vergütung erhalten</div>
-            <small class="text-gray-500">Hoheit über deine Daten</small>
+            <div class="text-blue font-bold text-lg">TBD</div>
+            <small class="text-gray-500">Text is on se way</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">06</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Die Entscheidung, ob Sie nun Ihre eigenen Nutzungsstatistiken teilen, liegt ganz bei Ihnen. Fürs Teilen erhalten Sie
-                eine Reduktion der Lizenzgebühr oder können sich für Spenden an NGOs entscheiden.
+                Ändert sich noch
             </p>
         </div>
     </div>
