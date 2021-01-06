@@ -28,7 +28,7 @@
 <div class="hero px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/marvin-meyer-SYTO3xs06fU-unsplash-(1)_processed.jpg');">
         <div class="hero__content">
             <h1 class="mb-6">Über uns</h1>
-            <div class="font-bold mb-4">Launch: Ende 2021</div>
+            <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
         </div>
     </div>
 </div>
@@ -43,8 +43,8 @@
                         <img src="/img/Icons Webseite/fist.png" width="90px" alt="fist"/>
                     </div>
                 </div>
-                <div class="text-yellow font-bold mt-4 mb-8">
-                    Power to the People
+                <div class="text-yellow font-bold mt-4 mb-8 md:mb-0">
+                    Power to the people
                 </div>
             </div>
             <div class="w-full md:w-1/3 md:px-2 mt-8 md:mt-0 text-center">
@@ -54,8 +54,8 @@
                     </div>
                 </div>
 
-                <div class="text-yellow font-bold mt-4 mb-8">
-                    Restore & secure Privacy
+                <div class="text-yellow font-bold mt-4 mb-8 md:mb-0">
+                    Restore & secure privacy
                 </div>
             </div>
             <div class="w-full md:w-1/3 md:px-2 mt-8 md:mt-0 text-center">
@@ -63,7 +63,7 @@
                     <div class="square__image" style="background-color: white; width:50px;height:50px;">
                     </div>
                 </div>
-                <div class="text-yellow font-bold mt-4 mb-8">
+                <div class="text-yellow font-bold mt-4">
                     Be simple, be transparent
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     Universums zu enthüllen, setzten wir das Framework dafür ein, mehr Sicherheit und
                     Privatsphäre ins Zuhause zu bringen.
                 </p>
-                <div class="text-yellow font-bold mt-2 mb-6"><a class="hover:underline" href="https://cern-bic.accent.at/bic-screening-weeks/bic-screening-week/" target="_blank" rel="noopener">https://cern-bic.accent.at/bic-screening-weeks/bic-screening-week/</a></div>
+                <div class="text-yellow font-bold mt-2 mb-6"><a class="hover:underline" href="https://cern-bic.accent.at/bic-screening-weeks/bic-screening-week/" target="_blank" rel="noopener">Zum Bericht</a></div>
                 <div class="w-full" style="height: 336px; background-image: url('img/Bilder_Webseite/processed/cern_first.jpg');background-position: center; background-repeat: no-repeat; background-size: cover"></div>
             </div>
 
@@ -103,7 +103,7 @@
     </div>
 </div>
 
-<div class="content-block">
+<div class="content-block--exception">
     <div class="container">
         <h2 class="text-underline text-underline--center text-center">Unsere Mission</h2>
         <div class="w-full md:max-w-3xl py-8 mx-auto px-16" style="border: 4px solid #0099CC;">
@@ -121,7 +121,7 @@
     </div>
 </div>
 
-<div class="content-block bg-gray-100 mb-16 py-8">
+<div class="content-block bg-gray-100 py-8">
     <div class="container">
         <h2 class="text-underline text-underline--center text-center">Das Team</h2>
         <div class="flex flex-col md:flex-row">

@@ -39,14 +39,19 @@
 <body>
 
     <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
-        <div class="container navbar pt-6 px-6">
-            <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
-            <div class="navbar__list-items">
-                <a class="text-white font-bold mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
-                <!--<a class="navbar__link" href="/">Für Unternehmen</a>
-                <a class="navbar__link" href="/">Über uns</a>
-                <a class="navbar__link" href="/">Kontakt</a>
-                <a class="navbar__link" href="/">EN</a>-->
+        <div class="py-4">
+            <div class="container text-white">
+                <div class="flex justify-between">
+                    <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
+                    <ul class="text-right">
+                        <li class="inline-block">
+                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/privatpersonen">Für Privatpersonen</a>
+                        </li>
+                        <li class="inline-block">
+                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="hero--fullpage__content mx-auto">
@@ -76,8 +81,8 @@
                     <div class="w-64 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
-                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+800.000</div>
-                    <div class="w-64 mx-auto">Haushalte in Österreich nutzen vernetzte Geräte</div>
+                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+2,8 Mio</div>
+                    <div class="w-64 mx-auto">Haushalte in Österreich & Deutschland nutzen vernetzte Geräte</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;90%</div>
@@ -183,7 +188,7 @@
     <div class="my-8 container">
         <h2 class="text-underline text-underline--center text-center">Mit freundlicher Unterstützung von</h2>
         <div class="my-8">
-            <img loading="lazy" src="img/Bilder_Webseite/processed/Gruppe23.png" alt="CPI, EFRE, Niederösterreich & Accent Logo" />
+            <a href="https://www.accent.at/" target="_blank" rel="noopener"><img loading="lazy" src="img/Bilder_Webseite/processed/Gruppe23.png" alt="CPI, EFRE, Niederösterreich & Accent Logo" /></a>
         </div>
     </div>
 

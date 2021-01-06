@@ -40,6 +40,10 @@ body {
     @apply mt-16;
 }
 
+.content-block--exception {/*explicit wish from laura*/
+    @apply mt-16 md:mt-8;
+}
+
 .hero--fullpage {
     height: 100vh;
 

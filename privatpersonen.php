@@ -28,7 +28,7 @@
 <div class="hero px-2 md:px-0" style="background-position: center center !important;background-size: cover;background: url('./img/Bilder_Webseite/processed/roberto-nickson-q9nZUFC1nTw-unsplash_processed.jpg');">
     <div class="hero__content">
         <h1 class="mb-6">Für Privatpersonen</h1>
-        <div class="font-bold mb-4">Launch: Ende 2021</div>
+        <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
     </div>
 </div>
 </div>
@@ -43,7 +43,7 @@
                         <img src="/img/Icons Webseite/king.png" width="90px" alt="king icon"/>
                     </div>
                 </div>
-                <div class="text-yellow font-bold mt-4 mb-8">
+                <div class="text-yellow font-bold mt-4 mb-8 md:mb-0">
                     Hoheit über deine Daten
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="text-yellow font-bold mt-4 mb-8">
+                <div class="text-yellow font-bold mt-4 mb-8 md:mb-0">
                     Sicherheit & Privatsphäre
                 </div>
             </div>
@@ -64,7 +64,7 @@
                         <img src="/img/Icons Webseite/silence.png" width="90px" alt="lock icon"/>
                     </div>
                 </div>
-                <div class="text-yellow font-bold mt-4 mb-8">
+                <div class="text-yellow font-bold mt-4">
                     Anonymität
                 </div>
             </div>
@@ -74,9 +74,9 @@
 
 <div class="content-block bg-gray-100 py-8">
     <div class="container">
-        <h3 class="text-underline text-underline--center text-center">Mit vernetzten Geräten ist Wohnen bequem und einfach - aber auch sicher?</h3>
+        <h2 class="text-underline text-underline--center text-center">Mit vernetzten Geräten ist Wohnen bequem und einfach - aber auch sicher?</h2>
         <div class="flex flex-col md:flex-row">
-            <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/nathan-dumlao-Y3AqmbmtLQI-unsplash_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+            <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/nathan-dumlao-Y3AqmbmtLQI-unsplash_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.derstandard.at/story/2000120305510/kaputtes-internet-der-dinge-wenn-die-kaffeemaschine-loesegeld-fordert', '_blank');">
                 <div class="text-white font-bold text-xl max-w-lg">Kaputtes Internet der Dinge: <br/>Wenn die Kaffeemaschine Lösegeld fordert</div>
                 <p class="mt-4 text-white">
                     <small>derStandard.at</small>
@@ -107,10 +107,10 @@
                 Geräte wiederum für Angriffe auf Unternehmen genutzt werden. Die betroffene Firma sieht dann dich als Angreifer.
             </p>
         </div>
-        <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/Eduard-Reisenhauera-auf-pixabay_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+        <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/Eduard-Reisenhauera-auf-pixabay_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.saugroboter.de/magazin/saugroboter-datensicherheit', '_blank');">
             <div class="text-white font-bold text-xl max-w-lg">Datensicherheit bei Saugrobotern</div>
             <p class="mt-4 text-white">
-                <a href="https://www.saugroboter.de/magazin/saugroboter-datensicherheit" target="_blank" rel="noopener"><small>https://www.saugroboter.de/magazin/saugroboter-datensicherheit</small></a>
+                <small>saugroboter.de</small>
             </p>
         </div>
     </div>
@@ -119,7 +119,7 @@
 <div class="bg-gray-100 py-8">
     <div class="container">
         <div class="flex flex-col md:flex-row">
-            <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/jonas-leupe-dZmNJKFDuVI-unsplash_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+            <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/jonas-leupe-dZmNJKFDuVI-unsplash_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.derstandard.at/story/2000118470494/smart-tvs-fast-alle-fernseher-spionieren-ihre-nutzer-aus', '_blank');">
                 <div class="text-white font-bold text-xl max-w-lg">Smart TVs: Fast alle Fernseher spionieren ihre Nutzer aus</div>
                 <p class="mt-4 text-white">
                     <small>derStandard.at</small>
@@ -140,17 +140,18 @@
 </div>
 
 <div class="container content-block">
-    <h3 class="text-underline text-underline--center text-center max-w-lg mx-auto">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h3>
+    <h2 class="text-underline text-underline--center text-center max-w-lg mx-auto">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h2>
     <?php include 'includes/small-slider.inc'; ?>
 </div>
 
 <div class="content-block bg-blue-300 text-white py-12 mt-0">
     <div class="container">
-        <h2 class="text-underline text-underline--center text-center text-white mb-0">In wenigen Schritten zu Privacy & Datenschutz</h2>
+        <h3 class="text-center text-white mb-0">Apocrat verhindert böswillige Zugriffe & blockiert unerlaubte Datennutzung</h3>
     </div>
 </div>
 
-<div class="content-block container py-8 px-2">
+<div class="content-block container pb-8 px-2">
+    <h2 class="text-underline text-underline--center text-center mb-8">In wenigen Schritten zu Privacy & Datenschutz</h2>
     <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/4">
             <div class="text-blue font-bold text-lg">Plug & Play Prinzip</div>
