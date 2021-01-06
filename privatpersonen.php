@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Über uns | Apocrat</title>
+    <title>Für Privatpersonen | Apocrat</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -141,13 +141,7 @@
 
 <div class="container content-block">
     <h3 class="text-underline text-underline--center text-center max-w-lg mx-auto">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h3>
-    <div class="slider">
-        <div class="slide" id="slide-1"></div>
-        <div class="slide" id="slide-2"></div>
-        <div class="slide" id="slide-3"></div>
-        <div class="slide" id="slide-4"></div>
-        <div class="slide" id="slide-5"></div>
-    </div>
+    <?php include 'includes/small-slider.inc'; ?>
 </div>
 
 <div class="content-block bg-blue-300 text-white py-12 mt-0">
@@ -235,4 +229,5 @@
     </div>
 </div>
 <?php include 'includes/footer.inc'; ?>
+<script type="text/javascript" src="/dist/js/main.js"></script>
 </body>
