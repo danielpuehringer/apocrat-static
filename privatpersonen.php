@@ -118,10 +118,10 @@
                 Geräte wiederum für Angriffe auf Unternehmen genutzt werden. Die betroffene Firma sieht dann dich als Angreifer.
             </p>
         </div>
-        <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/Eduard-Reisenhauera-auf-pixabay_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.saugroboter.de/magazin/saugroboter-datensicherheit', '_blank');">
+        <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/Eduard-Reisenhauera-auf-pixabay_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.datenschutz-notizen.de/was-dein-staubsauger-alles-ueber-dich-verraet-3019151/', '_blank');">
             <div class="text-white font-bold text-xl max-w-lg">Datensicherheit bei Saugrobotern</div>
             <p class="mt-4 text-white">
-                <small>saugroboter.de</small>
+                <small>datenschutz-notizen.de</small>
             </p>
         </div>
     </div>
@@ -166,75 +166,70 @@
     <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/4">
             <div class="text-blue font-bold text-lg">Plug & Play Prinzip</div>
-            <small class="text-gray-500">Aufsetzen des Geräte</small>
+            <small class="text-gray-500">Aufsetzen der Box</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">01</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Einfach die Apocrat Box per Netzwerkkabel an den Router schließen, den Rest erledigt unsere Software.
-                Im Hintergrund scannt Apocrat das Netzwerk, identifiziert alle IoT-Geräte und zeigt diese über die App an.
+                Die Hardware-Box wird an den Router angeschlossen. APOCRAT scannt das Netzwerk, identifiziert IoT-Geräte und zeigt diese über die App an.
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
-            <div class="text-blue font-bold text-lg">Indviduelle Regeln erstellen</div>
-            <small class="text-gray-500">Dein zu Hause, deine Regeln</small>
+            <div class="text-blue font-bold text-lg">Individuelle Regeln</div>
+            <small class="text-gray-500">Lernphase</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">02</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Apocrat analysiert die Kommunikation der IoT-Geräte und erstellt automatisiert verhaltensbasierte Regeln.
-                Zusätzlich können über die App auch Nutzer-basierte Regeln erstellt werden.
+                APOCRAT analysiert die Kommunikation der IoT-Geräte und erstellt verhaltensbasierte Regeln. Zusätzlich können eigene Regeln erstellt werden.
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
-            <div class="text-blue font-bold text-lg">AI-basierte Anomalieerkennung</div>
-            <small class="text-gray-500">Künstliche Intelligenz(tbd)</small>
+            <div class="text-blue font-bold text-lg">Anomalieerkennung</div>
+            <small class="text-gray-500">KI-basierte Analyse</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">03</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Durch die Erstellung von verhaltensbasierten Regeln durch unseren Machine Learning Algorithmus
-                können Angriffe und Anomalien verlässlicher erkannt werden.
+                Das Verhalten der Geräte wird laufend überprüft. Anomalien werden erkannt und unterbunden.
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
-            <div class="text-blue font-bold text-lg">Verwaltung & Steuerung</div>
-            <small class="text-gray-500">Die Apocrat App</small>
+            <div class="text-blue font-bold text-lg">Datenklassifizierung</div>
+            <small class="text-gray-500">Nutzerdaten</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">04</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Über die App, die sowohl für iOS als auch Android Geräte zur Verfügung steht, lässt sich die Apocrat
-                Box verwalten und steuern. Einzelne Regeln sowie IoT-Geräte lassen sich dadurch einfach aktivieren oder deaktivieren.
+                Apocrat reduziert die Kommunikation der Geräte auf das technische Minimum. Weitere Daten werden nur mit expliziter Zustimmung übermittelt.
             </p>
         </div>
     </div>
     <div class="flex flex-col md:flex-row mt-8">
         <div class="w-full md:w-1/4">
-            <div class="text-blue font-bold text-lg">Stop der Sammelwut</div>
-            <small class="text-gray-500">TBD</small>
+            <div class="text-blue font-bold text-lg">APOCRAT App</div>
+            <small class="text-gray-500">Verwaltung & Steuerung</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">05</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Apocrat reduziert die Kommunikation Ihrer IoT-Geräte auf das technische Minimum und gibt
-                Ihnen somit die Entscheidung zurück, welche Daten Sie über Ihr Nutzungsverhalten preisgeben wollen.
+                Über die App lässt sich die APOCRAT Box verwalten und steuern.
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
-            <div class="text-blue font-bold text-lg">TBD</div>
-            <small class="text-gray-500">Text is on se way</small>
+            <div class="text-blue font-bold text-lg">Datenschutz & Sicherheit</div>
+            <small class="text-gray-500">Rundum-Schutz</small>
             <div class="circle__sibling mt-2 md:mt-4"></div>
             <div class="circle__wrapper">
                 <span class="font-bold text-white mx-auto">06</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                Ändert sich noch
+                IoT-Geräte können sorglos verwendet werden. APOCRAT sorgt für Privacy und Datenschutz.
             </p>
         </div>
     </div>
