@@ -152,7 +152,7 @@
 
 <div class="container content-block">
     <h2 class="text-underline text-underline--center text-center max-w-lg mx-auto mb-8">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h2>
-    <?php include 'includes/small-slider.inc'; ?>
+    <?php //include 'includes/small-slider.inc'; ?>
 </div>
 
 <div class="content-block bg-blue-300 text-white py-12 mt-0">
@@ -236,36 +236,61 @@
 </div>
 <?php include 'includes/footer.inc'; ?>
 
-<div style="margin-top: 800px;">
-    <div>TEST:</div>
-    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
-        <div class="py-4">
-            <div class="container text-white">
-                <div class="flex justify-between">
-                    <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"></a>
-                    <ul class="text-right">
-                        <!--<li class="inline-block">
-                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/privatpersonen">Für Privatpersonen</a>
-                        </li>-->
-                        <li class="inline-block">
-                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
-                        </li>
-                    </ul>
+<div class="slideshow-container--fullscreen">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
+            <div class="hero--fullpage__content mx-auto">
+                <div class="container">
+                    <h1 class="mb-6">Schützen, was wichtig ist</h1>
+                    <div class="mb-4 text-xl">
+                        Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                        Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+                    </div>
+                    <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                    <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
                 </div>
-            </div>
-        </div>
-        <div class="hero--fullpage__content mx-auto">
-            <div class="container">
-                <h1 class="mb-6">Schützen, was wichtig ist</h1>
-                <div class="mb-4 text-xl">
-                    Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br>
-                    Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
-                </div>
-                <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
-                <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
             </div>
         </div>
     </div>
+
+    <div class="mySlides fade">
+        <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild2_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
+            <div class="hero--fullpage__content mx-auto">
+                <div class="container">
+                    <h1 class="mb-6">Schützen, was wichtig ist</h1>
+                    <div class="mb-4 text-xl">
+                        Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                        Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+                    </div>
+                    <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                    <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild3_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
+            <div class="hero--fullpage__content mx-auto">
+                <div class="container">
+                    <h1 class="mb-6">Schützen, was wichtig ist</h1>
+                    <div class="mb-4 text-xl">
+                        Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                        Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+                    </div>
+                    <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                    <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
 <script src="/dist/js/main.js"></script>

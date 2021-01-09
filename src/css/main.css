@@ -222,6 +222,27 @@ h4, .h4 {
     margin: auto;
 }
 
+.slideshow-container--fullscreen {
+    max-width: none;
+    margin-top: 500px;
+    width: 100vw;
+    position: relative;
+}
+
+.slideshow-container--fullscreen .prev {
+    left: 100px;
+    color: #ffffff;
+    top: calc(50% - 20px);
+}
+
+.slideshow-container--fullscreen .next {
+    right: 100px;
+    color: #ffffff;
+    top: calc(50% - 20px);
+}
+
+
+
 /* Hide the images by default */
 .mySlides {
     display: none;

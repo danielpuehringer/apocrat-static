@@ -884,6 +884,10 @@ video {
   width: 100%;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 @-webkit-keyframes spin {
   to {
     transform: rotate(360deg);
@@ -1196,6 +1200,25 @@ h4, .h4 {
   max-width: 720px;
   position: relative;
   margin: auto;
+}
+
+.slideshow-container--fullscreen {
+  max-width: none;
+  margin-top: 500px;
+  width: 100vw;
+  position: relative;
+}
+
+.slideshow-container--fullscreen .prev {
+  left: 100px;
+  color: var(--yellow);
+  top: calc(50% - 20px);
+}
+
+.slideshow-container--fullscreen .next {
+  right: 100px;
+  color: var(--yellow);
+  top: calc(50% - 20px);
 }
 
 /* Hide the images by default */

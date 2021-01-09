@@ -53,24 +53,23 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
-
-    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
-        <div class="py-4">
-            <div class="container text-white">
-                <div class="flex justify-between">
-                    <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
-                    <ul class="text-right">
-                        <!--<li class="inline-block">
-                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/privatpersonen">Für Privatpersonen</a>
-                        </li>-->
-                        <li class="inline-block">
-                            <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
-                        </li>
-                    </ul>
-                </div>
+<body class="relative">
+    <div class="py-4 z-10 absolute left-0 right-0 top-0">
+        <div class="container text-white">
+            <div class="flex justify-between">
+                <a href="/"><img class="navbar__logo" src="./logo/APOCRAT-weiss.svg" width="150"/></a>
+                <ul class="text-right">
+                    <!--<li class="inline-block">
+                        <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/privatpersonen">Für Privatpersonen</a>
+                    </li>-->
+                    <li class="inline-block">
+                        <a class="text-white mx-4 hover:underline hover:text-grey-500" href="/ueber-uns">Über uns</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
+    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
         <div class="hero--fullpage__content mx-auto">
             <div class="container">
                 <h1 class="mb-6">Schützen, was wichtig ist</h1>
