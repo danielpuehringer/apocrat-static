@@ -1017,14 +1017,14 @@ body {
   text-shadow: 1px 1px 2px black;
   color: #ffffff;
   position: absolute;
-  bottom: 15%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 @media(min-width: 768px) {
   .hero--fullpage__content {
-    bottom: 25%;
+    top: 40%;
   }
 }
 
@@ -1204,21 +1204,32 @@ h4, .h4 {
 
 .slideshow-container--fullscreen {
   max-width: none;
-  margin-top: 500px;
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
 .slideshow-container--fullscreen .prev {
-  left: 100px;
-  color: var(--yellow);
-  top: calc(50% - 20px);
+  left: 8px;
+  color: #ffffff;
+  top: 65%;
 }
 
 .slideshow-container--fullscreen .next {
-  right: 100px;
-  color: var(--yellow);
-  top: calc(50% - 20px);
+  right: 8px;
+  color: #ffffff;
+  top: 65%;
+}
+
+@media(min-width: 768px) {
+  .slideshow-container--fullscreen .prev  {
+    left: 100px;
+    top: calc(50% - 20px);
+  }
+
+  .slideshow-container--fullscreen .next  {
+    right: 100px;
+    top: calc(50% - 20px);
+  }
 }
 
 /* Hide the images by default */

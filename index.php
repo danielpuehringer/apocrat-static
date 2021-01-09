@@ -69,19 +69,83 @@
             </div>
         </div>
     </div>
-    <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
-        <div class="hero--fullpage__content mx-auto">
-            <div class="container">
-                <h1 class="mb-6">Schützen, was wichtig ist</h1>
-                <div class="mb-4 text-xl">
-                    Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
-                    Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+
+
+    <div class="slideshow-container--fullscreen">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover;">
+                <div class="hero--fullpage__content mx-auto">
+                    <div class="container">
+                        <h1 class="mb-6">Schützen, was wichtig ist</h1>
+                        <div class="mb-4 text-xl">
+                            Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                            Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
+                        </div>
+                        <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                        <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                    </div>
                 </div>
-                <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
-                <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
             </div>
         </div>
+
+        <div class="mySlides fade">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild2_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+                <div class="hero--fullpage__content mx-auto">
+                    <div class="container">
+                        <h1 class="mb-6">Hoheit über deine Daten</h1>
+                        <div class="mb-4 text-xl">
+                            Apocrat nutzt nur jene Daten, die für die Funktionsweise nötig sind.<br/>
+                            Weitere Daten werden nur nach explizitem Einverständnis genutzt.
+                        </div>
+                        <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                        <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild3_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+                <div class="hero--fullpage__content mx-auto">
+                    <div class="container">
+                        <h1 class="mb-6">Daten teilen, Vergütung erhalten</h1>
+                        <div class="mb-4 text-xl">
+                            Daten Teilen ist kein Muss. Entschließt du jedoch, Daten mit Apocrat zu teilen, so wirst du dafür vergütet.<br/>
+                            Deine Daten sind wertvoll und von diesem Wert sollst du auch profitieren!
+                        </div>
+                        <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                        <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild4_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+                <div class="hero--fullpage__content mx-auto">
+                    <div class="container">
+                        <h1 class="mb-6">Dein Recht auf Privacy</h1>
+                        <div class="mb-4 text-xl">
+                            Diverse vernetzte Geräte sammeln Metriken über dein Nutzungsverhalten und geben diese ohne dein Wissen weiter.<br/>
+                            Dadurch wird ein Verhaltensprofil von dir erstellt. Es wird Zeit, diesem Handeln ein Ende zu setzen.
+                        </div>
+                        <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
+                        <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+
+
+
     <div class="content-block">
         <div class="container text-center text-gray-900">
             <h2 class="text-underline text-underline--center" id="bookmark">Schutz für deine IoT-Geräte</h2>
