@@ -151,7 +151,7 @@
 </div>
 
 <div class="container content-block">
-    <h2 class="text-underline text-underline--center text-center max-w-lg mx-auto">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h2>
+    <h2 class="text-underline text-underline--center text-center max-w-lg mx-auto mb-8">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h2>
     <?php include 'includes/small-slider.inc'; ?>
 </div>
 
@@ -235,6 +235,9 @@
     </div>
 </div>
 <?php include 'includes/footer.inc'; ?>
+
+
+
 <script src="/dist/js/main.js"></script>
 </body>
 </html>
