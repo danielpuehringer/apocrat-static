@@ -4,19 +4,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="https://picsum.photos/450/350" style="width:50%; margin-left: auto; margin-right: auto;">
+        <img src="https://picsum.photos/450/350" style="width:75%; margin-left: auto; margin-right: auto;">
         <div class="text">Caption Text</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="https://picsum.photos/450/350" style="width:50%; margin-left: auto; margin-right: auto;">
+        <img src="https://picsum.photos/450/350" style="width:75%; margin-left: auto; margin-right: auto;">
         <div class="text">Caption Two</div>
     </div>
 
     <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="https://picsum.photos/450/350" style="width:50%; margin-left: auto; margin-right: auto;">
+        <img src="https://picsum.photos/450/350" style="width:75%; margin-left: auto; margin-right: auto;">
         <div class="text">Caption Three</div>
     </div>
 

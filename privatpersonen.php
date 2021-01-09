@@ -235,5 +235,6 @@
     </div>
 </div>
 <?php include 'includes/footer.inc'; ?>
-<script type="text/javascript" src="/dist/js/main.js"></script>
+<script src="/dist/js/main.js"></script>
 </body>
+</html>

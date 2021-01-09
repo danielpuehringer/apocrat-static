@@ -174,5 +174,6 @@
 </div>
 
 <?php include 'includes/footer.inc'; ?>
-
+<script src="/dist/js/main.js"></script>
 </body>
+</html>

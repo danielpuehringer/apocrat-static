@@ -1,8 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-    var slideIndex = 2;
-    console.log(slideIndex);
-    showSlides(slideIndex);
-    currentSlide(2);
+document.addEventListener("DOMContentLoaded", function() {
+    currentSlide(1);//activating the slider by showing first img
 });
 
 // Next/previous controls
@@ -27,7 +24,6 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    console.log(slides[slideIndex-1]);
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
