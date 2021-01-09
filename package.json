@@ -4,11 +4,7 @@
   "description": "Static Website, designed by Laura in Nov 2020",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo(\"test\")",
-    "fast": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css",
-    "build": "NODE_ENV=production npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css",
-    "different": "postcss src/css/main.css -o dist/css/main.css",
-    "usethis": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css"
+    "build": "npx tailwindcss-cli build ./src/css/main.css -o ./dist/css/main.css"
   },
   "repository": {
     "type": "git",
