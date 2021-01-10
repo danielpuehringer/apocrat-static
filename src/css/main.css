@@ -153,6 +153,16 @@ h4, .h4 {
     color: red;
 }
 
+.navbar__logo {
+    width: 128px;
+}
+
+@media(min-width: 768px) {
+    .navbar__logo {
+        width: 150px;
+    }
+}
+
 .text-white {
     color: #ffffff;
 }

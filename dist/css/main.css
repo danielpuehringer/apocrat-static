@@ -632,6 +632,11 @@ video {
   font-weight: 700;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -656,9 +661,9 @@ video {
   list-style-type: disc;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 .my-8 {
@@ -1126,6 +1131,16 @@ h4, .h4 {
   color: red;
 }
 
+.navbar__logo {
+  width: 128px;
+}
+
+@media(min-width: 768px) {
+  .navbar__logo {
+    width: 150px;
+  }
+}
+
 .text-white {
   color: #ffffff;
 }
@@ -1347,9 +1362,19 @@ h4, .h4 {
     flex-direction: row;
   }
 
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .md\:mt-0 {
