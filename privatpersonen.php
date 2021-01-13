@@ -152,7 +152,7 @@
 
 <div class="container content-block">
     <h2 class="text-underline text-underline--center text-center max-w-lg mx-auto mb-8">"Ich habe keine vernetzten Geräte zu Hause" und wieso diese Aussage falsch ist</h2>
-    <?php //include 'includes/small-slider.inc'; ?>
+    <?php include 'includes/small-slider.inc'; ?>
 </div>
 
 <div class="content-block bg-blue-300 text-white py-12 mt-0">

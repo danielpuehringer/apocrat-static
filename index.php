@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="mySlides fade">
+        <!--<div class="mySlides fade">
             <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild3_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
                 <div class="hero--fullpage__content mx-auto">
                     <div class="container">
@@ -116,11 +116,10 @@
                             Deine Daten sind wertvoll und von diesem Wert sollst du auch profitieren!
                         </div>
                         <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
-                        <!--<a class="btn btn-primary border-2 mx-auto mt-6" href="#bookmark">Mehr erfahren</a>-->
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="mySlides fade">
             <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild4_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
