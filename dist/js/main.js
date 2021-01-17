@@ -27,3 +27,19 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+function closeNavbar(){
+    var openElements = document.getElementsByClassName("js-navbar--toggle");
+    for (var i=0; i < openElements.length; i++){
+        console.log(openElements[i]);
+        openElements[i].style.display = "none";
+    }
+}
+
+function openNavbar(){
+    var openElements = document.getElementsByClassName("js-navbar--toggle");
+    for (var i=0; i < openElements.length; i++){
+        console.log(openElements[i]);
+        openElements[i].style.display = "flex";
+    }
+}
