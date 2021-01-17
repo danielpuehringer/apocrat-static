@@ -632,11 +632,6 @@ video {
   font-weight: 700;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -846,10 +841,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-yellow {
@@ -1378,6 +1369,10 @@ h4, .h4 {
 }
 
 @media (min-width: 768px) {
+  .md\:bg-opacity-0 {
+    --tw-bg-opacity: 0;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1449,6 +1444,10 @@ h4, .h4 {
 
   .md\:static {
     position: static;
+  }
+
+  .md\:bottom-auto {
+    bottom: auto;
   }
 
   .md\:w-1\/2 {

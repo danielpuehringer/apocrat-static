@@ -34,6 +34,10 @@ function closeNavbar(){
         console.log(openElements[i]);
         openElements[i].style.display = "none";
     }
+    var indexException = document.getElementsByClassName("js-navbar--index-exception");
+    if(indexException){
+        indexException[0].style.bottom = "auto";
+    }
 }
 
 function openNavbar(){
@@ -41,5 +45,9 @@ function openNavbar(){
     for (var i=0; i < openElements.length; i++){
         console.log(openElements[i]);
         openElements[i].style.display = "flex";
+    }
+    var indexException = document.getElementsByClassName("js-navbar--index-exception");
+    if(indexException){
+        indexException[0].style.bottom = "0";
     }
 }
