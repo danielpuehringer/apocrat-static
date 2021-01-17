@@ -13,7 +13,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apocrat</title>
+    <title>APOCRAT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,9 +31,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <link rel="stylesheet" href="/dist/css/main.css?v2">
-    <link href="https://www.apocrat.at" rel="canonical">
+    <link href="https://www.APOCRAT.at" rel="canonical">
 
-    <meta name="description" content="Apocrat - intelligenter Schutz für Ihre Daten und Privatsphäre">
+    <meta name="description" content="APOCRAT - intelligenter Schutz für Ihre Daten und Privatsphäre">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -80,7 +80,7 @@
                     <div class="container">
                         <h1 class="mb-6">Schützen, was wichtig ist</h1>
                         <div class="mb-4 text-xl">
-                            Apocrat sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
+                            APOCRAT sichert deine vernetzten Geräte vor unerlaubtem Zugriff wie z.B. einem Hackerangriff.<br/>
                             Offene Kameras, mithörende Babyphone und manipulierte Türschlösser sind dadurch Geschichte.
                         </div>
                         <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
@@ -96,7 +96,7 @@
                     <div class="container">
                         <h1 class="mb-6">Hoheit über deine Daten</h1>
                         <div class="mb-4 text-xl">
-                            Apocrat nutzt nur jene Daten, die für die Funktionsweise nötig sind.<br/>
+                            APOCRAT nutzt nur jene Daten, die für die Funktionsweise nötig sind.<br/>
                             Weitere Daten werden nur nach explizitem Einverständnis genutzt.
                         </div>
                         <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
@@ -112,7 +112,7 @@
                     <div class="container">
                         <h1 class="mb-6">Daten teilen, Vergütung erhalten</h1>
                         <div class="mb-4 text-xl">
-                            Daten Teilen ist kein Muss. Entschließt du jedoch, Daten mit Apocrat zu teilen, so wirst du dafür vergütet.<br/>
+                            Daten Teilen ist kein Muss. Entschließt du jedoch, Daten mit APOCRAT zu teilen, so wirst du dafür vergütet.<br/>
                             Deine Daten sind wertvoll und von diesem Wert sollst du auch profitieren!
                         </div>
                         <div class="font-bold mb-4 text-xl">Launch: Ende 2021</div>
@@ -149,10 +149,10 @@
         <div class="container text-center text-gray-900">
             <h2 class="text-underline text-underline--center" id="bookmark">Schutz für deine IoT-Geräte</h2>
             <p class="mb-6">
-                Apocrat ist eine AI-basierte Plug-and-Play-"Firewall", die vernetzte Geräte (IoT-Geräte/ Internet of Things Geräte) einerseits davor schützt, von
-                außen übernommen zu werden (z.B. durch Hacker) und andererseits davor bewahrt, dass Nutzerdaten ohne die explizite Zustimmung der User an
-                Dritte weitergegeben werden. Dadurch schützt Apocrat vor Datendiebstahl, dem Eindringen in die Privatsphäre der NutzerInnen und gibt die
-                Hoheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu den einzelnen Menschen.
+                APOCRAT ist eine AI-basierte Plug-and-Play-"Firewall", die vernetzte Geräte (IoT-Geräte) einerseits davor schützt, von
+                außen übernommen zu werden (z.B. durch Hacker) und andererseits davor bewahrt, dass Nutzerdaten ohne deine explizite Zustimmung an
+                Dritte weitergegeben werden. Dadurch schützt APOCRAT vor Datendiebstahl, dem Eindringen in deine Privatsphäre der NutzerInnen und gibt die
+                Hoheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu dir.
             </p>
             <div class="flex flex-col md:flex-row">
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
@@ -160,7 +160,7 @@
                     <div class="w-64 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
-                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">+2,8 Mio</div>
+                    <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;10 Mio.</div>
                     <div class="w-64 mx-auto">Haushalte in Österreich & Deutschland nutzen vernetzte Geräte</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
@@ -178,16 +178,16 @@
             <div class="w-full md:w-2/3">
                 <h2 class="text-underline mt-4 md:mt-0 md:max-w-xs">Intelligente Firewall für dein Heimnetzwerk</h2>
                 <p class="mb-6">
-                    Vernetzte Geräte, die mehr Komfort bringen, sind längst zur Selbstverständlichkeit geworden. Allerdings besitzen gerade diese Geräte oft grobe Sicherheitslücken.
+                    Vernetzte Geräte für mehr Komfort im Alltag sind längst zur Selbstverständlichkeit geworden. Allerdings besitzen gerade diese Geräte oft grobe Sicherheitslücken.
                 </p>
                 <p class="font-bold mb-6">
-                    Apocrat schützt deine Geräte und ermöglicht dir Komfort ohne Abstriche.
+                    APOCRAT schützt deine Geräte und ermöglicht dir Komfort ohne Abstriche.
                 </p>
                 <ul class="list-disc pl-4">
-                    <li>Geräte-Erkennung - erkennt Deine Geräte automatisch</li>
+                    <li>Geräte-Erkennung - APOCRAT erkennt deine Geräte automatisch</li>
                     <li>Anomalie-Erkennung - unerwünschtes Verhalten wird erkannt und blockiert</li>
-                    <li>Datenschutz - sorgt dafür, dass Deine privaten Daten auch privat bleiben</li>
-                    <li>Smartphone App - zur einfachen Steuerung und Indiviualisierung von Apocrat</li>
+                    <li>Datenschutz - sorgt dafür, dass deine privaten Daten auch privat bleiben</li>
+                    <li>Smartphone App - zur einfachen Steuerung und Indiviualisierung von APOCRAT</li>
                 </ul>
             </div>
         </div>
@@ -200,17 +200,17 @@
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/usb-cable.png" />
                     <span class="font-bold">Anstecken</span>
-                    <p>Apocrat Box per Kabel mit dem Router verbinden & einschalten</p>
+                    <p>APOCRAT Box per Kabel mit dem Router verbinden & einschalten</p>
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/wifi.png" />
                     <span class="font-bold">Scannen</span>
-                    <p>Apocrat erkennt die vernetzen Geräte im Heimnetzwerk und ihr normales Verhalten</p>
+                    <p>APOCRAT erkennt die vernetzen Geräte im Heimnetzwerk und ihr normales Verhalten</p>
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/shield.png" />
                     <span class="font-bold">Schützen</span>
-                    <p>Apocrat unterbindet unerlaubten Zugriff & stellt Datenschutz sicher</p>
+                    <p>APOCRAT unterbindet unerlaubten Zugriff & stellt Datenschutz sicher</p>
                 </div>
                 <!--<div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/euro.png" />
@@ -224,18 +224,18 @@
     <div class="content-block container">
         <h2 class="text-underline text-underline--center text-center">Hoheit über deine Daten</h2>
         <p class="text-center">
-            Apocrat schützt dich und dein zu Hause vor Datendiebstahl. Dabei werden nur Daten verwendet, die für die Funktionsweise benötigt werden.
-            Apocrat funktioniert also uneingeschränkt ohne das Teilen von Metriken (Nutzerstatistiken).
+            APOCRAT schützt dich und dein zu Hause vor Datendiebstahl. Dabei werden nur Daten verwendet, die zwingend für die Funktionsweise benötigt werden.
+            APOCRAT funktioniert also uneingeschränkt ohne das Teilen von Metriken (Nutzerstatistiken).
         </p>
         <p class="mt-4 text-center">
             Zusammengefasst heißt das...
         </p>
         <div class="flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 mt-12">
-                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="Ohne Apocrat" />
+                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-29_processed.jpg" alt="Ohne APOCRAT" />
             </div>
             <div class="w-full md:w-1/2 mt-12">
-                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-30_processed.png" alt="Mit Apocrat" />
+                <img loading="lazy" class="" src="./img/Bilder_Webseite/processed/Gruppe-30_processed.png" alt="Mit APOCRAT" />
             </div>
         </div>
     </div>
@@ -258,7 +258,7 @@
                     <li>Statistiken über die Sicherheit von vernetzten Geräten</li>
                     <li>Hoheit über die eigenen Daten</li>
                     <li>Schutz vor Viren und Malware</li>
-                    <li>Privatsphäre im eigenen Haushalt</li>
+                    <li>Privatsphäre im eigenen Haushalt zurückerlangen</li>
                 </ul>
             </div>
         </div>

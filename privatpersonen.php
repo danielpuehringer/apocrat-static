@@ -95,12 +95,12 @@
             </div>
 
             <div class="w-full md:w-1/2 mx-auto px-4 flex flex-col justify-center">
-                <h3 class="h4">270 000 Angriffe pro Tag auf vernetzte Geräte</h3>
+                <h3 class="h4">270.000 Angriffe pro Tag auf vernetzte Geräte</h3>
                 <p class="mt-2">
-                    Unglaublich viele Angriffe im Internet zielen direkt auf Smart Home und IoT Geräte ab.
-                    Hacker versuchen dabei zum Beispiel Zugriff auf Router oder Webcams zu erhalten um diese Daten zu verkaufen
+                    Unglaublich viele Angriffe im Internet zielen direkt auf Smart Homes und IoT-Geräte ab.
+                    Hacker versuchen zum Beispiel Zugriff auf Router oder Webcams zu erhalten, um die so gewonnenen Daten zu verkaufen
                     oder die Opfer auszuspionieren.
-                    Denke daher frühzeitig daran für Sicherheit zu sorgen, um nicht selbst Opfer eines solchen Angriffes zu werden.
+                    Denke daher frühzeitig daran, für Sicherheit zu sorgen, um nicht selbst Opfer eines solchen Angriffes zu werden.
                 </p>
             </div>
         </div>
@@ -113,9 +113,9 @@
             <h3 class="h4">Die Folgen werden häufig unterschätzt</h3>
             <p class="mt-2">
                 Geräte werden kaputt, oder lassen sich nur nach Bezahlung von Lösegeld wieder bedienen.
-                Die Geräte werden ein Einfallstor für Angreifer und infizieren dein gesamtes Netzwerk:
-                von der Glühbirne, zum SmartTV bis zu Computer und Handy. Außerdem können deine, vom Hacker übernommenen,
-                Geräte wiederum für Angriffe auf Unternehmen genutzt werden. Die betroffene Firma sieht dann dich als Angreifer.
+                IoT-Geräte werden zum Einfallstor für Angreifer, welche dein gesamtes Netzwerk infizieren:
+                von der Glühbirne, zum Smart TV bis zu Computer und Handy. Außerdem können deine, vom Hacker übernommenen,
+                Geräte wiederum für Angriffe auf Unternehmen genutzt werden. Das betroffene Unternehmen sieht dann dich als Angreifer.
             </p>
         </div>
         <div class="w-full md:w-1/2 mx-auto px-4 mt-8 md:mt-0 flex flex-col justify-center cursor-pointer" style="min-height: 256px; background-image: url('img/Bilder_Webseite/processed/Eduard-Reisenhauera-auf-pixabay_processed.jpg');background-position: center; background-repeat: no-repeat; background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;" onclick="window.open('https://www.datenschutz-notizen.de/was-dein-staubsauger-alles-ueber-dich-verraet-3019151/', '_blank');">
@@ -142,8 +142,8 @@
                 <p class="mt-2">
                     Unternehmen nutzen Smart Homes aus, um das Wissen über ihre Kunden zu erweitern.
                     Sie greifen Daten jeglicher Art ab und verkaufen diese gewinnbringend weiter.
-                    Wir schützen dich davor und sorgen dafür, dass deine Daten nur weitergegeben werden
-                    wenn du auch einen Vorteil daraus ziehen kannst.
+                    Wir schützen dich und sorgen dafür, dass deine Daten nur weitergegeben werden,
+                    wenn du deine explizite Zustimmung gibst.
                 </p>
             </div>
         </div>
@@ -157,7 +157,7 @@
 
 <div class="content-block bg-blue-300 text-white py-12 mt-0">
     <div class="container">
-        <h3 class="text-center text-white mb-0">Apocrat verhindert böswillige Zugriffe & blockiert unerlaubte Datennutzung</h3>
+        <h3 class="text-center text-white mb-0">APOCRAT verhindert böswillige Zugriffe & blockiert unerlaubte Datennutzung</h3>
     </div>
 </div>
 
@@ -183,7 +183,7 @@
                 <span class="font-bold text-white mx-auto">02</span>
             </div>
             <p class="mt-2 md:mt-6 pr-3">
-                APOCRAT analysiert die Kommunikation der IoT-Geräte und erstellt verhaltensbasierte Regeln. Zusätzlich können eigene Regeln erstellt werden.
+                APOCRAT analysiert die Kommunikation der IoT-Geräte und erstellt verhaltensbasierte Regeln. Zusätzlich können eigene Regeln erstellt werden.
             </p>
         </div>
         <div class="w-full md:w-1/4 mt-8 md:mt-0">
