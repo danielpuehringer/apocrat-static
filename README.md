@@ -1,4 +1,4 @@
-##Before you add anything to this project, please talk to dani first!
+## Before you add anything to this project, please talk to dani first!
 
 # apocrat-static
 Static Website, designed by Laura in Nov 2020
@@ -16,4 +16,9 @@ Developed by Dani Pühringer in Nov 2020 - Jan 2021
 3. Develop in the /src folder, except js files(change them in /dist/js ) --> this is because of performance!
 4. For building files run ```npm run build```
 5. Upload files from /dist folder to server
+
+# If you have never worked with a utility first CSS library, read this:
+1. TailwindCSS is used as the CSS Library, watch those videos: https://www.youtube.com/tailwindlabs
+2. Also check out: https://tailwindcss.com/docs/utility-first
+3. Example instructions for margin-classes: https://tailwindcss.com/docs/margin
 
