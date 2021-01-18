@@ -37,7 +37,7 @@
 
     <div class="mySlides fade">
         <div class="w-1/2 mx-auto text-center">
-            <img class="mx-auto" src="/icon/small-slider/004-speaker.svg" width="136" height="136"/>
+            <img class="mx-auto" src="/icon/small-slider/005-smart-tv.svg" width="136" height="136"/>
             <div class="mt-6 mb-2 text-blue-300 font-bold">Smart TV:</div>
             <p class="w-max-s md:w-max-xs">
                 Über 50% der Haushalte in AT & DE besitzen einen Smart TV.<br/>
@@ -48,7 +48,7 @@
 
     <div class="mySlides fade">
         <div class="w-1/2 mx-auto text-center">
-            <img class="mx-auto" src="/icon/small-slider/005-smart-tv.svg" width="136" height="136"/>
+            <img class="mx-auto" src="/icon/small-slider/004-speaker.svg" width="136" height="136"/>
             <div class="mt-6 mb-2 text-blue-300 font-bold">Sprachassistent:</div>
             <p class="w-max-s md:w-max-xs">
                 Dein Sprachassistent arbeitet dauerhaft über das Internet.
