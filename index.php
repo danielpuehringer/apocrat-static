@@ -97,7 +97,7 @@
         </div>
 
         <div class="mySlides fade">
-            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild2_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild2_processed.jpg'); background-repeat: no-repeat;background-position: top;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
                 <div class="hero--fullpage__content mx-auto">
                     <div class="container">
                         <h1 class="mb-6">Hoheit über deine Daten</h1>
@@ -128,7 +128,7 @@
         </div>-->
 
         <div class="mySlides fade">
-            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild4_processed.jpg'); background-repeat: no-repeat;background-position: bottom;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
+            <div class="hero--fullpage px-2 md:px-0" style="background: url('./img/Bilder_Webseite/processed/headerbild4_processed.jpg'); background-repeat: no-repeat;background-position: center;background-size: cover; background-color: rgba(0,0,0,0.5);background-blend-mode: multiply;">
                 <div class="hero--fullpage__content mx-auto">
                     <div class="container">
                         <h1 class="mb-6">Dein Recht auf Privacy</h1>
@@ -157,13 +157,13 @@
             <p class="mb-6">
                 APOCRAT ist eine AI-basierte Plug-and-Play-"Firewall", die vernetzte Geräte (IoT-Geräte) einerseits davor schützt, von
                 außen übernommen zu werden (z.B. durch Hacker) und andererseits davor bewahrt, dass Nutzerdaten ohne deine explizite Zustimmung an
-                Dritte weitergegeben werden. Dadurch schützt APOCRAT vor Datendiebstahl, dem Eindringen in deine Privatsphäre der NutzerInnen und gibt die
+                Dritte weitergegeben werden. Dadurch schützt APOCRAT vor Datendiebstahl, dem Eindringen in deine Privatsphäre und gibt die
                 Hoheit über die Nutzerdaten dorthin zurück, wo sie hingehört: zu dir.
             </p>
             <div class="flex flex-col md:flex-row">
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">270.000</div>
-                    <div class="w-64 mx-auto">Angriffe auf vernetzte Geräte pro Tag</div>
+                    <div class="w-64 mx-auto">Angriffe auf vernetzte Geräte <br/>pro Tag</div>
                 </div>
                 <div class="w-full md:w-1/3 mt-8 md:mt-0">
                     <div class="text-yellow font-bold text-3xl md:text-4xl mb-2">&gt;10 Mio.</div>
@@ -211,7 +211,7 @@
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/wifi.png" />
                     <span class="font-bold">Scannen</span>
-                    <p>APOCRAT erkennt die vernetzen Geräte im Heimnetzwerk und ihr normales Verhalten</p>
+                    <p>APOCRAT erkennt die vernetzen Geräte im Heimnetzwerk und deren normales Verhalten</p>
                 </div>
                 <div class="w-full md:w-1/3 text-center mt-12 md:mt-0 px-4">
                     <img class="mx-auto mb-4" width="80px" src="./icon/shield.png" />
