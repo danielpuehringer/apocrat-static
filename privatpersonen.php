@@ -114,7 +114,7 @@
             <p class="mt-2">
                 Geräte werden kaputt, oder lassen sich nur nach Bezahlung von Lösegeld wieder bedienen.
                 IoT-Geräte werden zum Einfallstor für Angreifer, welche dein gesamtes Netzwerk infizieren:
-                von der Glühbirne, zum Smart TV bis zu Computer und Handy. Außerdem können deine, vom Hacker übernommenen,
+                von der Glühbirne, zum Smart TV bis zu Computer und Smartphone. Außerdem können deine, vom Hacker übernommenen
                 Geräte wiederum für Angriffe auf Unternehmen genutzt werden. Das betroffene Unternehmen sieht dann dich als Angreifer.
             </p>
         </div>

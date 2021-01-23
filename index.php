@@ -258,7 +258,7 @@
 
                 </p>
                 <p class="mt-4">
-                    <strong>Wir sorgen dafür, dass du dich nicht mehr Sorgen musst.</strong>
+                    <strong>Wir sorgen dafür, dass du dich nicht mehr sorgen musst.</strong>
                 </p>
                 <ul class="mt-4 list-disc pl-4">
                     <li>Statistiken über die Sicherheit von vernetzten Geräten</li>

@@ -41,7 +41,7 @@
             <div class="mt-6 mb-2 text-blue-300 font-bold">Smart TV:</div>
             <p class="w-max-s md:w-max-xs">
                 Über 50% der Haushalte in AT & DE besitzen einen Smart TV.<br/>
-                Mit Kameras ausgerüstet stellt dieses Gerät ein beliebtes Ziel für Hacker dar.
+                Auf Basis deiner Lieblingsserien lässt sich wunderbar personalisierte Werbung ausspielen.
             </p>
         </div>
     </div>
