@@ -22,3 +22,6 @@ Developed by Dani Pühringer in Nov 2020 - Jan 2021
 2. Also check out: https://tailwindcss.com/docs/utility-first
 3. Example instructions for margin-classes: https://tailwindcss.com/docs/margin
 
+#FTP-Info:
+1. root-folder auf server: "/relaunch-static"
+
